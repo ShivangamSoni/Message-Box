@@ -61,10 +61,12 @@ body {
     transform-origin: right;
     transition: transform 500ms;
 }
-#btn:hover {
+#btn:hover,
+#btn:focus {
     color: #fff;
 }
-#btn:hover::after {
+#btn:hover::after,
+#btn:focus::after {
     transform: scaleX(1);
     transform-origin: left;
 }
